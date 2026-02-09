@@ -25,6 +25,11 @@ spring:
           disallow-delete: false
 
 
+# 风控 risk-hub 接口 Cookie（可选，用于需登录的接口）
+app:
+  risk-hub:
+    cookie: "filter=%7B%22activitycode%22%3A%22%22%2C%22catalog%22%3A%22presale2%22%2C%22availableDuration%22%3Anull%2C%22skucode%22%3A%22%22%7D; newOmsfilter=%7B%22orderid%22%3A%221203562000056270%22%2C%22time%22%3A%7B%22orderdate%22%3A%5B%222025-06-30T16%3A00%3A00.000Z%22%2C%222026-02-04T15%3A59%3A59.999Z%22%5D%7D%2C%22phones%22%3A%7B%7D%2C%22orderatsegment%22%3A%22202507-%22%7D; SECKEY_ABVK=bLMX6GxVNCqNsbMXIhVylel2d28eMRiaYderzIuRIP4%3D; BMAP_SECKEY=4LqESIqwFt4x7j_MOl5h2zsvP1hvy_fjqfe1_4s_KxNOKkFFfMHp3HqehxdxaW6VLx15PjbDnAaZnW9OaqMP1Vz79fM4QFM-SU3OULJxOltbLBKqUZ5WxI2gQ2tbjv8XLuN7iVJlre8vzPWlBM8NGS2RCRbYU3h2BmbzOkEDiOEkPO6bPZgfCx5ngAnqUVGBU2EgHJd4KSHBExoUZ4BlHY_PaCUGgWjnzX7ZODtgWiY; sensorsdata2015jssdkchannel=%7B%22prop%22%3A%7B%22_sa_channel_landing_url%22%3A%22%22%7D%7D; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22197345925498b3-0d9f5bef6cca8d8-19525636-2073600-1973459254a4bf%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTk3MzQ1OTI1NDk4YjMtMGQ5ZjViZWY2Y2NhOGQ4LTE5NTI1NjM2LTIwNzM2MDAtMTk3MzQ1OTI1NGE0YmYifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221904e4e47f9637-0dec8b9fa3daa3-19525637-1764000-1904e4e47fa725%22%7D; appliedwebsid=cdb50b6f-e38f-42fc-81b3-0a7713125e42; uploadticket=JrmCAQhhbspuhZQvBrYT0Rmtn11CupfHXqictodLg3c=; SECKEY_ABVK=bLMX6GxVNCqNsbMXIhVylQnGn6HcCoZp/HKF0wSLd4Y%3D; BMAP_SECKEY=4LqESIqwFt4x7j_MOl5h2xiG4BcZvzcZoDELK3UtMEPR9gvM97A8_04gCu7AxW_tNguWXlcWxPcjsMBz3r-XBBkSd3NDkY3arNh0oaiTJ3yswtGGD6JXAdnbLVopoT046lQneRE_1_rwJGcuvqbaMFgEUCLqtmPtnLD1-QCkwBQUqfXS62tIi8b495Aa5A4bGFwwz8KKLO5dzRjN9eTvIOZqFsp1YqckfgI66IGoUhw"
+
 logging:
   level:
     # 查看MCP详细日志
